@@ -1,4 +1,4 @@
-print("Digite um número para o grau da equação: ")
+print("Digite o grau para essa variável: ")
 nmr = int(input(">>"))
 
 if nmr < 1 or nmr > 2:
@@ -7,13 +7,13 @@ if nmr < 1 or nmr > 2:
 elif nmr == 1:
     print("A equação é do primeiro grau.")
     print("Digite o primeiro valor: ")
-    nmr1 = int(input(">>"))
-    if nmr1 == 0:
+    a = int(input(">>"))
+    if a == 0:
         print(f"Valor de a inválido")
-    else:
+    elif nmr > 0:
         print("Digite o segundo número")
-        nmr2 = int(input(">> "))
-    print(f"{nmr1/nmr2:.2f}")
+        b = int(input(">> "))
+    print(f"{-b/a:.2f}")
 
 elif nmr == 2:
     print("A equação é do segundo grau")
@@ -33,14 +33,9 @@ elif nmr == 2:
             print("A equação não possui raízes reais")
         elif r == r2 :
             print("A equação possui apenas uma raiz real")
-            print(f"{(-b + 0)/2*a:.2f}")
+            print(f"{(-b + 0)/(2*a):.2f}")
         else :
             r2 = int(b**2-4*a*c)
             print("A equação possui duas raízes reais")
-            print(f"{(-b + r2**0.5)/2*a:.2f}")
-            print(f"{(-b - r2**0.5)/2*a:.2f}")
-
-
-    
-
-
+            print(f"{(-b + r2**0.5)/(2*a):.2f}")
+            print(f"{(-b - r2**0.5)/(2*a):.2f}")
