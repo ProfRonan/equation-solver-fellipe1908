@@ -37,5 +37,6 @@ elif nmr == 2:
         else :
             r2 = int(b**2-4*a*c)
             print("A equação possui duas raízes reais")
-            print(f"{(-b + r2**0.5)/(2*a):.2f}")
             print(f"{(-b - r2**0.5)/(2*a):.2f}")
+            print(f"{(-b + r2**0.5)/(2*a):.2f}")
+      
