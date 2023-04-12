@@ -5,7 +5,7 @@ if nmr < 1 or nmr > 2:
     print("Grau inválido")
 
 elif nmr == 1:
-    print("A equação é do primeiro grau.")
+    print("A equação é do primeiro grau")
     print("Digite o primeiro valor: ")
     a = int(input(">>"))
     if a == 0:
