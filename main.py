@@ -13,7 +13,7 @@ elif nmr == 1:
     elif nmr > 0:
         print("Digite o segundo número")
         b = int(input(">> "))
-    print(f"{-b/a:.2f}")
+        print(f"{-b/a:.2f}")
 
 elif nmr == 2:
     print("A equação é do segundo grau")
