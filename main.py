@@ -21,7 +21,7 @@ elif nmr == 2:
     a = int(input(">"))
     
     if a == 0:
-        print("Valor inválido")
+        print("Valor de a inválido")
     else:
         print("Digite o Segundo número")
         b = int(input(">> "))
