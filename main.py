@@ -9,7 +9,7 @@ elif nmr == 1:
     print("Digite o primeiro valor: ")
     a = int(input(">>"))
     if a == 0:
-        print(f"Valor de a inválido")
+        print("Valor de a inválido")
     elif nmr > 0:
         print("Digite o segundo número")
         b = int(input(">> "))
