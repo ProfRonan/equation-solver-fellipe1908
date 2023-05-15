@@ -32,7 +32,7 @@ elif nmr == 2:
         if r < (a*c*(4)):
             print("A equação não possui raízes reais")
         elif r == r2 :
-            print("A equação possui apenas uma raiz real")
+            print("A equação possui uma raiz real")
             print(f"{(-b + 0)/(2*a):.2f}")
         else :
             r2 = int(b**2-4*a*c)
